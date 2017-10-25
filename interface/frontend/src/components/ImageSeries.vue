@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-
+    <image-viewer></image-viewer>
     <div class="row">
       <div class="col-md-12">
         <div class="card">
@@ -77,10 +77,11 @@
 
 <script>
   import TreeView from './TreeView'
+  import ImageViewer from './ImageViewer'
 
   export default {
     components: {
-      TreeView
+      TreeView, ImageViewer
     },
     data () {
       return {
